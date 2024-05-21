@@ -89,19 +89,19 @@ Continuing the example from earlier, the differential equation should look like 
 
 The differential equations change depending on the Jacobian Matrix and the Joint varibales. In this case, the assigned Spherical Manipulator was used. This concludes the process of obtaining the End Effector Velocities.
 
-## Path and Trajectory
+# Path and Trajectory
 
-path and trajectory 
+
 
 In robotics, path planning involves determining a feasible route for a robot to navigate from its current position to a target location while avoiding obstacles. This process typically considers the robot's kinematics, environmental constraints, and optimality criteria. Trajectory planning, on the other hand, focuses on generating a smooth and efficient motion path for the robot to follow, taking into account factors such as velocity profiles, acceleration limits, and dynamic constraints. Together, path and trajectory planning enable robots to autonomously navigate and execute tasks in complex environments with precision and efficiency. With these, the way we plan the path and trajectory, we only relied on the spherical limitation of the spherical manipulator. Since the spherical manipulator only moves in a spherical way, the planning is simple due to the small area that it could cover. In the code we did the path and the trajectory not thinking about the obstacle that the end effector will go through because we simply spherical manipulators are to be used in an open space and now have much of an obstacle.
 
-# Path And Trajecttory Planning for Pick and Place
+## Path And Trajecttory Planning for Pick and Place
 
 ![Screenshot 2024-05-21 142549](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/9f3d9b5b-0c38-4981-b202-66589012a17b)
 
 
 
-# Path And Trajecttory Planning for Welding
+## Path And Trajecttory Planning for Welding
 
 ![Screenshot 2024-05-21 142610](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/babc161b-e262-4817-823b-1dc3c4393817)
 
