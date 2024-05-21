@@ -19,9 +19,10 @@ In the previous midterm project, the goal was to discuss the assigned manipulato
 
 Jacobian matrix represents the partial derivatives of a function with respect to its variables. These partial derivatives are from the forward kinematics and this matrix relates the end effector velocities to the joint velocities. This enables the calculation of each of the joint’s velocities with the use of this equation:
 
-<p align = "center">
-![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/2b653dbc-9bc8-4010-9827-f9fe01b89e33)
-</p>
+
+
+ ![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/2b653dbc-9bc8-4010-9827-f9fe01b89e33)
+
 From the image, the right side of the equation represents the Jacobian matrix depicted as J multiplied by the joint variable velocities. On the other side of the equation, we have the end effector velocities we are solving for. The Jacobian matrix size is dependent on the number of joints that the manipulator has. The values inside the Jacobian Matrix are as follows:
 
 
