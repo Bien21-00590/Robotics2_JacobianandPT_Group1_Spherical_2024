@@ -76,6 +76,18 @@ Now that we also have our Rotational End Effector Velocities, Our Jacobian Matri
 
 ![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/8013d6b8-2ab7-494b-99bf-41afda0cf158)
 
+Now that we have the Jacobian Matrix, we can solve the differential equations of the end effector velocities. 
+
+ 
+## Differential equations 
+
+Solving for the differential equations of the end effector velocities is simply by multiplying the joint variable velocities by the Jacobian Matrix, the answer should come in a row of 6, and the differential equation that an end effector velocity is aligned to is where it is assigned and is equated to. 
+
+Continuing the example from earlier, the differential equation should look like this: 
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/50841bf6-767f-4bff-ba50-b593c7c42c6a)
+
+The differential equations change depending on the Jacobian Matrix and the Joint varibales. In this case, the assigned Spherical Manipulator was used. This concludes the process of obtaining the End Effector Velocities.
 
 
 
