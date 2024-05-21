@@ -16,3 +16,15 @@ In the previous midterm project, the goal was to discuss the assigned manipulato
 
 
 ## The Jacobain Matrix
+
+Jacobian matrix represents the partial derivatives of a function with respect to its variables. These partial derivatives are from the forward kinematics and this matrix relates the end effector velocities to the joint velocities. This enables the calculation of each of the joint’s velocities with the use of this equation:
+ 
+From the image, the right side of the equation represents the Jacobian matrix depicted as J multiplied by the joint variable velocities. On the other side of the equation, we have the end effector velocities we are solving for. The Jacobian matrix size is dependent on the number of joints that the manipulator has. The values inside the Jacobian Matrix are as follows:
+
+ 
+The image above shows us how many elements are inside the Jacobian Matrix. Although what we see is a 6x3 matrix, this can go up in more columns since the columns depend on the number of joints that the manipulator has. The values inside the Jacobian matrix depend on the given or desired joint variables and changes constantly in reference to those joint variables, The values in these empty boxes are as such:
+ 
+
+The first three rows in the Jacobian matrix represent the Linear velocities of the Manipulator while the bottom three rows are the Rotational Velocities. We follow this table to correctly and accurately input the values needed so that when it comes to the solution, it will end up being correct and functioning as intended. Once the Jacobian Matrix is solved, we can start multiplying it by the joint velocities so that we can end up with differential equations but that will be discussed later on.
+
+For a better understanding of how the Jacobian matrix is solved, an example will be provided below: 
