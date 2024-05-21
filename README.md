@@ -1,5 +1,5 @@
 # Robotics2_JacobianandPT_Group1_Spherical_2024
-# Forward and Inverse Kinematics of a Spherical Manipulator
+# End effector velocities and Path and Trajectory for welding and pick and place function of a Spherical Manipulator
 ### Members:
 - PL : Perilla, Aira A.
 - PE : Capuno, Raphael Juno L.
