@@ -90,5 +90,13 @@ Continuing the example from earlier, the differential equation should look like 
 The differential equations change depending on the Jacobian Matrix and the Joint varibales. In this case, the assigned Spherical Manipulator was used. This concludes the process of obtaining the End Effector Velocities.
 
 
+## References
 
+Finding Jacobian matrix using the DH parameter table and relative transformation matrices. (n.d.). Robotics Stack Exchange. https://robotics.stackexchange.com/questions/20035/finding-jacobian-matrix-using-the-dh-parameter-table-and-relative-transformation
+
+Mikko De Torres. (2023, April 16). Robotics 2: Jacobian Matrix Introduction [Video]. YouTube. https://www.youtube.com/watch?v=4xIkUo0M1R8
+
+Mikko De Torres. (2023b, April 16). Robotics 2: Jacobian Matrix Programming Part 1 [Video]. YouTube. https://www.youtube.com/watch?v=gR08ESR9gUg
+
+Mikko De Torres. (2023b, April 16). Robotics 2: Jacobian Matrix Program Part 2 [Video]. YouTube. https://www.youtube.com/watch?v=fC9lMgB8l84
 
