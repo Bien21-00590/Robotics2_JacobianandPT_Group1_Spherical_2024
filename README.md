@@ -36,3 +36,47 @@ The image above shows us how many elements are inside the Jacobian Matrix. Altho
 The first three rows in the Jacobian matrix represent the Linear velocities of the Manipulator while the bottom three rows are the Rotational Velocities. We follow this table to correctly and accurately input the values needed so that when it comes to the solution, it will end up being correct and functioning as intended. Once the Jacobian Matrix is solved, we can start multiplying it by the joint velocities so that we can end up with differential equations but that will be discussed later on.
 
 For a better understanding of how the Jacobian matrix is solved, an example will be provided below: 
+
+These will be the values used for this example so as to not make the equation too lenghty:
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/297de93f-bf09-49fe-8f6d-7dd3f33a40c7)
+
+Now we substitute the appropriate values for the content inside the Jacobian Matrix:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/8d1778b5-aec4-4437-b31f-ace034203149)
+
+Now we solve for the rotation matrix and position vector equations:
+
+
+Column 1, Row 1 to 3:
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/39ed2e4e-97f4-4134-8ea0-d41d11d16c9d)
+
+Column 2, Row 1 to 3:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/7d84b842-7512-4057-84e0-fef8f19c3de9)
+
+Column 3, Row 1 to 3:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/2c94c130-9f1b-4303-b654-99574223b42f)
+
+This completes the Linear End Effector Velocities, now we head on the the equations for the Rotational End Effector Velocities:
+
+Column 1, Row 4 to 6:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/00f9251f-942e-48eb-9f93-0de4fec49eb4)
+
+Column 2, Row 4 to 6:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/e61caca3-7c0b-4d72-8271-aeb5daadfcc6)
+
+Column 3, Row 4 to 6:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/6ee5e5bf-c355-4c63-8bca-87758a009d4c)
+
+Now that we also have our Rotational End Effector Velocities, Our Jacobian Matrix is now complete and is shown below:
+
+![image](https://github.com/Bien21-00590/Robotics2_JacobianandPT_Group1_Spherical_2024/assets/157681561/8013d6b8-2ab7-494b-99bf-41afda0cf158)
+
+
+
+
+
